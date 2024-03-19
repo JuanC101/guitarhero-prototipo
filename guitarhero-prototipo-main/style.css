@@ -1,0 +1,17 @@
+.content{
+    background: url("./img/track.png");
+    background-size:100% auto;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.alerta {
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
