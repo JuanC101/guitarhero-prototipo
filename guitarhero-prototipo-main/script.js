@@ -75,8 +75,11 @@ function iniciarJuego() {
 
 
 window.addEventListener("keyup", function (evt) {
-    if (evt.key === "s") {
+    if (evt.key === "a") {
         iniciarJuego();
+    }
+    if (evt.key === "s") {
+        clearInterval(intervalo);
     }
     if (evt.key === "r") {
         reiniciarJuego();
